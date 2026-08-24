@@ -1,33 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="'PingFang SC','Source Han Sans SC','Inter',sans-serif">
-  <rect width="1200" height="675" fill="#FFFFFF"/>
-  <text x="96" y="104" font-size="40" font-weight="700" fill="#111111">交付前，先过三省</text>
-  <text x="96" y="146" font-size="20" fill="#666666">一份交付物要同时站得住这三根轴，才算真的做完</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="'PingFang SC','Source Han Sans SC','Inter',sans-serif">
+  <rect width="1200" height="620" fill="#FFFFFF"/>
+  <line x1="80" y1="60" x2="1120" y2="60" stroke="#111111" stroke-width="2"/>
+  <text x="80" y="46" font-size="20" fill="#666666" letter-spacing="4">交付前 · 必过三关</text>
 
-  <!-- column 1 -->
-  <line x1="150" y1="250" x2="150" y2="540" stroke="#E8E8E8" stroke-width="1.5"/>
-  <circle cx="150" cy="290" r="9" fill="#2F6BFF"/>
-  <text x="182" y="284" font-size="28" font-weight="700" fill="#111111">一省 · 可信</text>
-  <text x="182" y="330" font-size="18" fill="#666666">有没有编造？</text>
-  <text x="182" y="362" font-size="18" fill="#666666">结论是否有据可查？</text>
-  <text x="182" y="410" font-size="17" fill="#999999">语气自信 ≠ 事实</text>
+  <!-- 一省 -->
+  <text x="80" y="196" font-size="120" font-weight="800" fill="#111111">一省</text>
+  <text x="360" y="150" font-size="52" font-weight="800" fill="#2F6BFF">可信</text>
+  <text x="360" y="200" font-size="26" fill="#666666">有没有编的？每个数字、名字、结论，说得出从哪来吗</text>
+  <line x1="80" y1="230" x2="1120" y2="230" stroke="#E8E8E8" stroke-width="1.5"/>
 
-  <!-- column 2 -->
-  <line x1="530" y1="250" x2="530" y2="540" stroke="#E8E8E8" stroke-width="1.5"/>
-  <circle cx="530" cy="290" r="9" fill="#2F6BFF"/>
-  <text x="562" y="284" font-size="28" font-weight="700" fill="#111111">二省 · 完整</text>
-  <text x="562" y="330" font-size="18" fill="#666666">每个诉求都覆盖了吗？</text>
-  <text x="562" y="362" font-size="18" fill="#666666">有没有偷偷丢一半？</text>
-  <text x="562" y="410" font-size="17" fill="#999999">子诉求逐条对照</text>
+  <!-- 二省 -->
+  <text x="80" y="366" font-size="120" font-weight="800" fill="#111111">二省</text>
+  <text x="360" y="320" font-size="52" font-weight="800" fill="#2F6BFF">完整</text>
+  <text x="360" y="370" font-size="26" fill="#666666">你要的每件都做了吗？"做 A 顺便 B"最爱漏掉 B</text>
+  <line x1="80" y1="400" x2="1120" y2="400" stroke="#E8E8E8" stroke-width="1.5"/>
 
-  <!-- column 3 -->
-  <line x1="910" y1="250" x2="910" y2="540" stroke="#E8E8E8" stroke-width="1.5"/>
-  <circle cx="910" cy="290" r="9" fill="#2F6BFF"/>
-  <text x="942" y="284" font-size="28" font-weight="700" fill="#111111">三省 · 合意</text>
-  <text x="942" y="330" font-size="18" fill="#666666">答的是真需求吗？</text>
-  <text x="942" y="362" font-size="18" fill="#666666">形态/深度/口吻对吗？</text>
-  <text x="942" y="410" font-size="17" fill="#999999">而不是字面意思</text>
+  <!-- 三省 -->
+  <text x="80" y="536" font-size="120" font-weight="800" fill="#111111">三省</text>
+  <text x="360" y="490" font-size="52" font-weight="800" fill="#2F6BFF">合意</text>
+  <text x="360" y="540" font-size="26" fill="#666666">答的是你真想要的吗？还是在精准回答一个错的问题</text>
 
-  <!-- baseline -->
-  <line x1="150" y1="590" x2="1050" y2="590" stroke="#111111" stroke-width="1"/>
-  <text x="150" y="626" font-size="18" fill="#999999">三轴同时通过 · 才交付</text>
+  <line x1="80" y1="575" x2="1120" y2="575" stroke="#111111" stroke-width="2"/>
+  <text x="1120" y="605" font-size="22" font-weight="700" fill="#111111" text-anchor="end">三关同时过 · 才算真做完</text>
 </svg>

@@ -1,39 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="'PingFang SC','Source Han Sans SC','Inter',sans-serif">
-  <rect width="1200" height="675" fill="#FFFFFF"/>
-  <text x="96" y="104" font-size="40" font-weight="700" fill="#111111">先审自己一轮，再交出去</text>
-  <text x="96" y="146" font-size="20" fill="#666666">换视角挑刺 → 修正 → 最多三轮 → 到顶诚实交底</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" font-family="'PingFang SC','Source Han Sans SC','Inter',sans-serif">
+  <rect width="1200" height="520" fill="#FFFFFF"/>
+  <line x1="80" y1="60" x2="1120" y2="60" stroke="#111111" stroke-width="2"/>
+  <text x="80" y="46" font-size="20" fill="#666666" letter-spacing="4">它跑起来是什么样</text>
 
-  <!-- main horizontal path -->
-  <line x1="150" y1="340" x2="1050" y2="340" stroke="#111111" stroke-width="1"/>
+  <!-- big steps -->
+  <text x="80" y="210" font-size="72" font-weight="800" fill="#111111">换视角</text>
+  <text x="410" y="210" font-size="64" font-weight="300" fill="#2F6BFF">→</text>
+  <text x="490" y="210" font-size="72" font-weight="800" fill="#111111">挑刺列清单</text>
+  <text x="960" y="210" font-size="64" font-weight="300" fill="#2F6BFF">→</text>
+  <text x="1040" y="210" font-size="72" font-weight="800" fill="#111111">修正</text>
 
-  <!-- step 1 -->
-  <circle cx="190" cy="340" r="9" fill="#2F6BFF"/>
-  <text x="190" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">换视角</text>
-  <text x="190" y="388" font-size="17" fill="#666666" text-anchor="middle">当成别人的作业</text>
+  <!-- loop note -->
+  <text x="80" y="285" font-size="28" fill="#666666">这个循环最多跑</text>
+  <text x="352" y="285" font-size="28" font-weight="800" fill="#2F6BFF">三轮</text>
+  <text x="448" y="285" font-size="28" fill="#666666">。</text>
 
-  <!-- step 2 -->
-  <circle cx="440" cy="340" r="9" fill="#2F6BFF"/>
-  <text x="440" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">三省列清单</text>
-  <text x="440" y="388" font-size="17" fill="#666666" text-anchor="middle">可信 / 完整 / 合意</text>
+  <line x1="80" y1="330" x2="1120" y2="330" stroke="#E8E8E8" stroke-width="1.5"/>
 
-  <!-- step 3 -->
-  <circle cx="690" cy="340" r="9" fill="#2F6BFF"/>
-  <text x="690" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">按严重度修正</text>
-  <text x="690" y="388" font-size="17" fill="#666666" text-anchor="middle">高 → 中 → 低</text>
+  <!-- honesty punchline -->
+  <text x="80" y="420" font-size="60" font-weight="800" fill="#111111">三轮还没干净？</text>
+  <text x="80" y="478" font-size="34" font-weight="700" fill="#2F6BFF">它不装完美，直接把剩下的问题摊给你。</text>
 
-  <!-- decision -->
-  <circle cx="940" cy="340" r="9" fill="#111111"/>
-  <text x="940" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">干净了？</text>
-
-  <!-- loop back arc: from decision back to 三省, max 3 -->
-  <path d="M 940 355 C 940 470, 440 470, 440 358" fill="none" stroke="#999999" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="690" y="500" font-size="17" fill="#999999" text-anchor="middle">未通过则回炉 · 最多 3 轮</text>
-
-  <!-- exit -->
-  <line x1="949" y1="340" x2="1040" y2="340" stroke="#111111" stroke-width="1"/>
-  <text x="1045" y="334" font-size="22" font-weight="700" fill="#111111">交付</text>
-  <text x="1045" y="362" font-size="16" fill="#666666">残留疑点</text>
-  <text x="1045" y="384" font-size="16" fill="#666666">如实列出</text>
-
-  <text x="150" y="600" font-size="18" fill="#999999">到顶还没干净 → 诚实交底，不假装完美，不无限打转</text>
+  <line x1="80" y1="502" x2="1120" y2="502" stroke="#111111" stroke-width="2"/>
 </svg>
