@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" font-family="'PingFang SC','Source Han Sans SC','Inter',sans-serif">
+  <rect width="1200" height="440" fill="#FFFFFF"/>
+
+  <!-- top rule -->
+  <line x1="80" y1="70" x2="1120" y2="70" stroke="#111111" stroke-width="2"/>
+  <text x="80" y="56" font-size="18" fill="#666666" letter-spacing="6">AI · 三 · 省 · 吾 · 身</text>
+  <text x="1120" y="56" font-size="18" fill="#999999" text-anchor="end">AGENT SELF-REVIEW SKILL</text>
+
+  <!-- big characters -->
+  <text x="600" y="240" font-size="168" font-weight="800" fill="#111111" text-anchor="middle" letter-spacing="24">AI 三省</text>
+
+  <!-- accent underline -->
+  <rect x="470" y="268" width="260" height="10" fill="#2F6BFF"/>
+
+  <!-- slogan -->
+  <text x="600" y="336" font-size="34" font-weight="700" fill="#111111" text-anchor="middle" letter-spacing="2">AI 曰：任务三省吾身。</text>
+  <text x="600" y="380" font-size="20" fill="#666666" text-anchor="middle">交东西之前，先审自己一轮 —— 更可信、更完整、更懂你要什么</text>
+
+  <!-- bottom rule -->
+  <line x1="80" y1="410" x2="1120" y2="410" stroke="#111111" stroke-width="2"/>
+</svg>

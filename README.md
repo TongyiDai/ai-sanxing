@@ -1,6 +1,6 @@
-<h1 align="center">AI 三省</h1>
-
-<p align="center"><em>AI 曰：任务三省吾身。</em></p>
+<p align="center">
+  <img src="assets/hero.svg" alt="AI 三省 · AI 曰：任务三省吾身" width="100%">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/type-agent%20skill-2F6BFF" alt="type: agent skill">
