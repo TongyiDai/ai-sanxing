@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="'PingFang SC','Source Han Sans SC','Inter',sans-serif">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="96" y="104" font-size="40" font-weight="700" fill="#111111">先审自己一轮，再交出去</text>
+  <text x="96" y="146" font-size="20" fill="#666666">换视角挑刺 → 修正 → 最多三轮 → 到顶诚实交底</text>
+
+  <!-- main horizontal path -->
+  <line x1="150" y1="340" x2="1050" y2="340" stroke="#111111" stroke-width="1"/>
+
+  <!-- step 1 -->
+  <circle cx="190" cy="340" r="9" fill="#2F6BFF"/>
+  <text x="190" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">换视角</text>
+  <text x="190" y="388" font-size="17" fill="#666666" text-anchor="middle">当成别人的作业</text>
+
+  <!-- step 2 -->
+  <circle cx="440" cy="340" r="9" fill="#2F6BFF"/>
+  <text x="440" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">三省列清单</text>
+  <text x="440" y="388" font-size="17" fill="#666666" text-anchor="middle">可信 / 完整 / 合意</text>
+
+  <!-- step 3 -->
+  <circle cx="690" cy="340" r="9" fill="#2F6BFF"/>
+  <text x="690" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">按严重度修正</text>
+  <text x="690" y="388" font-size="17" fill="#666666" text-anchor="middle">高 → 中 → 低</text>
+
+  <!-- decision -->
+  <circle cx="940" cy="340" r="9" fill="#111111"/>
+  <text x="940" y="300" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">干净了？</text>
+
+  <!-- loop back arc: from decision back to 三省, max 3 -->
+  <path d="M 940 355 C 940 470, 440 470, 440 358" fill="none" stroke="#999999" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="690" y="500" font-size="17" fill="#999999" text-anchor="middle">未通过则回炉 · 最多 3 轮</text>
+
+  <!-- exit -->
+  <line x1="949" y1="340" x2="1040" y2="340" stroke="#111111" stroke-width="1"/>
+  <text x="1045" y="334" font-size="22" font-weight="700" fill="#111111">交付</text>
+  <text x="1045" y="362" font-size="16" fill="#666666">残留疑点</text>
+  <text x="1045" y="384" font-size="16" fill="#666666">如实列出</text>
+
+  <text x="150" y="600" font-size="18" fill="#999999">到顶还没干净 → 诚实交底，不假装完美，不无限打转</text>
+</svg>
